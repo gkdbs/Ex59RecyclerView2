@@ -23,7 +23,7 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="One Piece"
+            android:text="미술학원"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#FF333333"
@@ -33,7 +33,7 @@
             android:id="@+id/tv_msg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is One Piece character"
+            android:text="미대 입시생 모집"
             android:layout_below="@id/tv_name"
             android:layout_alignLeft="@id/tv_name"/>
 

@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 //        recyclerView.scrollToPosition(items.size()-1);
 
         //보통 새로 추가된 아이템은 첫번째(index:0)로 추가되는 경우가 더 많음[최신순]
-        items.add( 0, new Item("NEW","MESSAGE", R.drawable.ch_sandi, R.drawable.img06)  );
+        items.add( 0, new Item("NEW","MESSAGE", R.drawable.art06, R.drawable.img06)  );
         adapter.notifyItemInserted(0);
         recyclerView.scrollToPosition(0);
     }
